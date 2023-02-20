@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - Assign a random number to the variable n each time it is executed
+ * Main - Entry point
+ * Description: Assign a random number to the variable n each time it is executed
  * and print whether the number stored in variable n is negative or positive
  *
  * Return: Always 0 (Success)
