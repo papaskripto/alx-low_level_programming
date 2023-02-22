@@ -5,3 +5,5 @@
 1. variables, if...else, while
 
 2. functions, nested loops
+
+3. debugging
