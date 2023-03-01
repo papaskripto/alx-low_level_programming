@@ -9,3 +9,7 @@
 3. debugging
 
 4. more functions, more nested loops
+
+5. pointers, arrays & strings
+
+6. more on pointers, arrays & strings
