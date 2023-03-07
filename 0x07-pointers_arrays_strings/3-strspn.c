@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _strspn - search a string for a set of bytes
+  * _strspn - gets the length of a prefix substring
   * @s: source string
   * @accept: accepted string
   *
@@ -9,24 +9,24 @@
   */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int a = 0, b, t = 0;
+	unsigned int i = 0, j, k = 0;
 
-	while (accept[a])
+	while (accept[i])
 	{
-		b = 0;
+		j = 0;
 
-		while (s[b] != 32)
+		while (s[j] != 32)
 		{
-			if (accept[a] == s[b])
+			if (accept[i] == s[j])
 			{
-				t++;
+				k++;
 			}
 
-			b++;
+			j++;
 		}
 
-		a++;
+		i++;
 	}
 
-	return (t);
+	return (k);
 }
