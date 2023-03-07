@@ -13,3 +13,5 @@
 5. pointers, arrays & strings
 
 6. more on pointers, arrays & strings
+
+7. even more on pointers, arrays & strings
