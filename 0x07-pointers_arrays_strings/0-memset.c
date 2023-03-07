@@ -10,21 +10,11 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int m;
 
-	for (i = 0; i < n; i++)
-
-		printf("%c\n", a);
-
-	int main()
+	for (m = 0; m < n; m++)
 	{
-		int n = 10;
-		char *s;
-		s = &b;
-
-		memset(b, 0, s*sizeof(b[0]));
-		printf("Array after memset()\n");
-		printf("%d\n", n);
-
+		s[m] = b;
 	}
+	return (s);
 }
