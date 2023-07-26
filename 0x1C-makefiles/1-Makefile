@@ -1,6 +1,6 @@
 # makefile
 
-cc=gcc
+CC = gcc
 SRC = main.c school.c
 all:
-	$(cc) $(SRC) -o school
+	$(CC) $(SRC) -o school
