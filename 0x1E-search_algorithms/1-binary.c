@@ -5,7 +5,6 @@
 /**
  * print_array - prints the array to search in
  * @array: pointer to the array
- * @start: the begining of the array
  * @end: end point of the array
  *
  * Return: no value
@@ -65,7 +64,7 @@ int binary_search_func(int *array, size_t start, size_t end, int value)
  * @size: the number of elements in array
  * @value: the value to search for
  *
- * Return: index where value is located, 
+ * Return: index where value is located
  * -1 if value is not present in array or NULL
  */
 int binary_search(int *array, size_t size, int value)
